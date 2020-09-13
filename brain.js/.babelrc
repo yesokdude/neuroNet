@@ -1,0 +1,19 @@
+{
+  "plugins": [
+    "@babel/proposal-class-properties",
+    "@babel/proposal-object-rest-spread"
+  ],
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "corejs": {
+          "version": 2
+        },
+        "targets": "defaults",
+        "useBuiltIns": "usage"
+      }
+    ],
+    "@babel/preset-typescript"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "env": {
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": "../.eslintrc.json",
+  "plugins": ["prettier", "@typescript-eslint", "jest"]
+}
